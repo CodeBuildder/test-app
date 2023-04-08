@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Table</title>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>S.No</td>
+        <td>Name of Equipment</td>
+        <td>Status</td>
+      </tr>
+      <tr>
+        <td>{{this.sno}}</td>
+        <td>{{this.name}}</td>
+        <td>{{this.status}}</td>
+      </tr>
+      <tr>
+        <td colspan="3">Details of Services</td>
+      </tr>
+      <tr>
+        <td>Date</td>
+        <td colspan="2">Scheduled Maintenance / Operation / Service</td>
+      </tr>
+      <tr>
+        <td>{{this.date}}</td>
+        <td colspan="2">{{this.service}}</td>
+      </tr>
+      <tr>
+        <td>Remarks</td>
+        <td colspan="2">{{this.remarks}}</td>
+      </tr>
+    </table>
+  </body>
+</html>
